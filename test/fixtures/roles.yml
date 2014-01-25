@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  organization:
+
+two:
+  name: MyString
+  organization:
+
+actor:
+  name: Actor
+  organization: sag
+
+understudy:
+  name: Understudy
+  organization: sag
+
+stuntperson:
+  name: Stuntperson
+  organization: sag
+
+writer:
+  name: Writer
+  organization: wga
+
+editor:
+  name: Editor
+  organization: wga
+
+production_assistant:
+  name: Production Assistant
+  organization: wga
+
+key_grip:
+  name: Key Grip
+  organization: teamsters
+
+stangehand:
+  name: Stagehand
+  organization: teamsters
+
+camera_person:
+  name: Camera Person
+  organization: teamsters

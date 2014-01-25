@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  organization:
+
+two:
+  name: MyString
+  organization:
+
+patrick_stewart:
+  name: Patrick Stewart
+  organization: sag
+
+will_wheaton:
+  name: Will Wheaton
+  organization: sag
+
+joss_whedon:
+  name: Joss Whedon
+  organization: wga
+
+matt_groening:
+  name: Matt Groening
+  organization: wga
+
+michael_matteson:
+  name: Michael E. Matteson
+  organization: teamsters
+
+jimmy_hoffa:
+  name: Jimmy Hoffa
+  organization: teamsters

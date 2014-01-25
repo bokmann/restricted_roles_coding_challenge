@@ -1,0 +1,63 @@
+== Welcome to Another Coding Challenge
+
+While this is a rails app, this is actually a domain modeling exercise.
+
+We have a domain composed of people, organizations, and roles those people
+play within the organizations.
+
+Each organization has a list of 'available roles' its 'members' can have.
+
+This domain is missing a critical piece though - there is no relationship
+yet between users and roles.  Your mission is to build that relationship.
+
+read the unit test - your_mission_test.rb for more details.  The test
+names make it obvious.
+
+Traditionally in ActiverRedord we have two ways to build this relationship...
+With the has_and_belongs_to_many association, and the has_many => :through
+association.
+
+You can choose to use either one of those, or even build your own way to
+manage it.
+
+There is some tricky business logic though, above and beyond what the
+'typical' relationships give you...  We have to make sure when setting up
+the association between the person and the role, that the person is able
+to be put in that role in the first place.  That is, the person is a member
+of the appropriate organization and that role is in the organization's list
+of available roles.
+
+See the fixture data and the failing tests for specific examples of what
+this exercise is about.
+
+== Purpose
+
+The 'interesting question' about this example is the business logic about
+the role restriction.  Where should that code go?  Does the Role enforce
+a restriction on its members?  Does the organization enforce it? Does the
+user somehow 'know' they can't join?  Might it live in another Class
+entirely?
+
+Different developers will solve this in defferent ways, and that will lead
+to interesting discussions about the benefits and drawbacks of each solution.
+
+== Ground Rules
+
+Do anything you want.  You'll get a golf clap if you can do it without
+modifying the database schema for any of the existing tables (you can add
+tables of course, and you can modify if you think that leads to a more
+elegant solution).
+
+The existing tests have to pass.
+
+Feel free to change the database type. I chose sqlite because it would let
+people get up and running without having to have a db process on their
+machine.
+
+== Getting Started
+
+1. Fork this repository so you have a place where you can publish your
+   changes.
+
+2. Bundle, migrate, seed, and run the tests.
+3. get to work.
