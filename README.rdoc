@@ -1,6 +1,8 @@
 == Welcome to Another Coding Challenge
 
-While this is a rails app, this is actually a domain modeling exercise.
+While this is a rails app, this is actually a domain modeling exercise. While
+you ould build a ui to impress your friends, I'm more inteested in how you
+choose to model the business logic of enforcing the role restrictions.
 
 We have a domain composed of people, organizations, and roles those people
 play within the organizations.
@@ -36,7 +38,7 @@ The 'interesting question' about this example is the business logic about
 the role restriction.  Where should that code go?  Does the Role enforce
 a restriction on its members?  Does the organization enforce it? Does the
 user somehow 'know' they can't join?  Might it live in another Class
-entirely?
+entirely? Do you somehow do it 'old school' in SQL?
 
 Different developers will solve this in defferent ways, and that will lead
 to interesting discussions about the benefits and drawbacks of each solution.
@@ -50,6 +52,8 @@ elegant solution).
 
 The existing tests have to pass.
 
+Your solution should persist to the database.
+
 Feel free to change the database type. I chose sqlite because it would let
 people get up and running without having to have a db process on their
 machine.
@@ -60,4 +64,7 @@ machine.
    changes.
 
 2. Bundle, migrate, seed, and run the tests.
+
 3. get to work.
+
+4. When you're proud of your results, push and tell.
