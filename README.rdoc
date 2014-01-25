@@ -68,3 +68,12 @@ machine.
 3. get to work.
 
 4. When you're proud of your results, push and tell.
+
+== My Solution
+
+I have a solution on an unpublished branch.  The SHA-1 of the commit is
+9ffa4e0b5e0af0705cb58020926aecaa0256d489
+
+While I like my answer, I'm serious in my statement that there are several
+good solutions to this and I want to have a discussion at an upcoming user
+group meeting about the forces and tradeoffs of each.
