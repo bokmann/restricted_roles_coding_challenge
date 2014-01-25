@@ -1,7 +1,7 @@
 == Welcome to Another Coding Challenge
 
 While this is a rails app, this is actually a domain modeling exercise. While
-you ould build a ui to impress your friends, I'm more inteested in how you
+you could build a ui to impress your friends, I'm more inteested in how you
 choose to model the business logic of enforcing the role restrictions.
 
 We have a domain composed of people, organizations, and roles those people
