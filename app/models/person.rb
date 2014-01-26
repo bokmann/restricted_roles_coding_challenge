@@ -6,17 +6,20 @@ class Person < ActiveRecord::Base
   validates :organization, presence: true
 
   def available_roles
-    organization.available_roles.map(&:name)
+    @roles ||= organization.available_roles.map(&:name)
   end
 
   def role
-    @role
+    @role ||= Role.where(id: role_id).first
   end
 
   def role=(new_role)
     if available_roles.include?(new_role)
-      @role = Role.where(name: new_role).first
+      role_id = Role.where(name: new_role).first.id
+      update_attribute(:role_id, role_id)
     end
+  rescue
+    false
   end
 
 
