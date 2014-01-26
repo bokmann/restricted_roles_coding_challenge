@@ -37,7 +37,7 @@ class RoleTest < ActiveSupport::TestCase
 
   test "should not be able to add Jimmy Hoffa to the role of 'production assistant'"  do
     jimmy = people(:jimmy_hoffa)
-    jimmy.role = 'Procution Assistant'
+    jimmy.role = 'Production Assistant'
     assert_nil jimmy.role
   end
 
