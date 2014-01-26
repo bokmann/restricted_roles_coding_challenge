@@ -10,7 +10,7 @@ class Person < ActiveRecord::Base
   end
 
   def role
-    @role ||= Role.where(id: role_id).first
+    Role.where(id: role_id).first
   end
 
   def role=(new_role)
