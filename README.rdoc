@@ -1,7 +1,7 @@
 == Welcome to Another Coding Challenge
 
 While this is a rails app, this is actually a domain modeling exercise. While
-you ould build a ui to impress your friends, I'm more inteested in how you
+you could build a ui to impress your friends, I'm more inteested in how you
 choose to model the business logic of enforcing the role restrictions.
 
 We have a domain composed of people, organizations, and roles those people
@@ -68,3 +68,12 @@ machine.
 3. get to work.
 
 4. When you're proud of your results, push and tell.
+
+== My Solution
+
+I have a solution on an unpublished branch.  The SHA-1 of the commit is
+9ffa4e0b5e0af0705cb58020926aecaa0256d489
+
+While I like my answer, I'm serious in my statement that there are several
+good solutions to this and I want to have a discussion at an upcoming user
+group meeting about the forces and tradeoffs of each.
