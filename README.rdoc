@@ -15,7 +15,7 @@ yet between users and roles.  Your mission is to build that relationship.
 read the unit test - your_mission_test.rb for more details.  The test
 names make it obvious.
 
-Traditionally in ActiverRedord we have two ways to build this relationship...
+Traditionally in ActiverRecord we have two ways to build this relationship...
 With the has_and_belongs_to_many association, and the has_many => :through
 association.
 
